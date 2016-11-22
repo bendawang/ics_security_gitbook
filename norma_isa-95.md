@@ -1,4 +1,4 @@
-# Norma ISA-95
+# Norma ANSI/ISA-95
 
 ## ¿Qué es ANSI/ISA-95?
  ISA-95 as it is more commonly referred, is an international standard from the International Society of Automation for developing an automated interface between enterprise and control systems. This standard has been developed for global manufacturers. It was developed to be applied in all industries, and in all sorts of processes, like batch processes, continuous and repetitive processes.
