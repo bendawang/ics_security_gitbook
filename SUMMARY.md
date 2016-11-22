@@ -4,5 +4,5 @@
 * [Dispositivos Automatización Industrial](dispositivos_automatizacion_industrial.md)
 * [Protocolos de comunicación](protocolos_de_comunicacion.md)
 * [Interfaces de comunicación](interfaces_de_comunicacion.md)
-* Seguridad
+* [Seguridad](seguridad.md)
 
