@@ -19,8 +19,7 @@ tradicionales viene limitado por su capacidad a la hora de interpretar los numer
 Medidas complementarias a los cortafuegos, como IDS/IPS, también se están utilizando en los
 sistemas de control y automatización. La limitación de estas soluciones es similar al de los
 cortafuegos, ya que no comprenden muchos protocolos industriales. Además, el tiempo de análisis
-del tráfico, sobre todo en configuraciones in-line, puede incurrir en latencias no compatibles con la
-naturaleza de tiempo real de ciertos procesos industriales.
+del tráfico, sobre todo en configuraciones in-line, puede incurrir en latencias no compatibles con la naturaleza de tiempo real de ciertos procesos industriales.
 Siguiendo con la protección en las redes y las comunicaciones están las VPN de tipo Host-Host
 para asegurar las comunicaciones entre pares de dispositivos. La limitación en el uso de esta
 tecnología viene determinada por la cantidad de recursos computacionales que son necesarios en
