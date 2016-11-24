@@ -30,3 +30,17 @@ El protocolo Modbus se formuló a finales de los 70 por los creadores del primer
 aún persiste, con unas pocas variaciones, en los PLCs de dicha marca (en la actualidad propiedad de Schneider Electric).
 
 Al pasar el protocolo a libre uso, ha sido incorporado en infinidad de dispositivos (generalmente de un rango inferior a un PLC) como variadores de frecuencia, RTUs, IEDs y, como segunda opción, en algunos PLCs a través de módulos de comunicación (software y/o hardware adicional).
+
+Las especificaciones del protocolo también soportan el encapsulamiento de las tramas serie dentro de tramas TCP, lo que permite como ya hemos comentado, la comunicación a través de
+dispositivos Ethernet con dispositivos serie RS-232 o RS-485 con la pasarela adecuada.
+
+Las especificaciones del protocolo son bastante sencillas, con unos pocos comandos de lectura y
+escritura, y unos tipos de datos muy reducidos.
+
+Los tipos de datos a leer y escribir se reducen a 4 tipos:
+* Bobinas (salidas digitales)
+* Contactos (bits de programa)
+* Entradas analógicas (registros de 16 bits)
+* Holding Registers (registros de programa de 16 bits).
+
+En cuanto al tamaño de los datos (registros de 16 bits, enteros de 32 bits con signo o sin signo, floats) el protocolo no contempla distinciones, sino que la conversión se realiza a nivel de aplicación. Por ejemplo, la lectura de un registro de 32 bits con signo correspondería a la lectura de dos registros de 16 bits, y será el driver de comunicaciones quien compusiese el dato final a través de los datos proporcionados por el dispositivo.
