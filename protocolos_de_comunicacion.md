@@ -24,3 +24,4 @@ Profinet es el mismo protocolo de Profibus pero en el medio físico de Ethernet.
 
 ## Modbus
 ---
+El protocolo basado en comunicación continua más extendido dentro de la industria es Modbus.
