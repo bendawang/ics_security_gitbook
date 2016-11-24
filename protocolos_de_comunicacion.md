@@ -64,8 +64,58 @@ al cliente sin que éste pregunte por él.
 * El protocolo incluye **mecanismos de identificación y autentificación** de forma que es
 posible habilitar/denegar el acceso de determinados clientes a la información del dispositivo.
 
-## DNP3 SECURE
+
+## OPC DA
+---
+Promovido por la OPC Foundation, se publicó el estándar OPC DA (Ole for Process Control), que
+con una operatividad basada en los mecanismos de Windows OLE y COM, realizaba una
+funcionalidad similar al enlace que realizaba DDE.
+
+Hoy en día es el estándar principal para la comunicación entre SCADAs y drivers pese a que ya
+están en uso especificaciones del protocolo mucho más avanzadas como es el caso de OPC UA.
+Incluye funcionalidades adicionales como la búsqueda de elementos desde el editor de los SCADA
+para facilitar la programación.
+
+Además de que OPC DA solo está soportado por máquinas Windows, el protocolo OPC padece de
+algunas deficiencias en cuanto al funcionamiento distribuido en diferentes ordenadores, debido
+principalmente a los problemas de configuración de DCOM.
+
+Estas deficiencias lo hacen especialmente difícil de configurar en algunos casos e impone barreras insalvables cuando los ordenadores se encuentran en diferentes dominios Windows. Igualmente, el protocolo OPC DA no dispone de mecanismos de seguridad para la protección del acceso a la información.
+
+## Versiones Seguras de Protocolos de Comunicacion Industrial
+### DNP3 SECURE
 ---
 Algunos fabricantes de dispositivos que incluyen comunicación DNP3, incorporan al mismo
 soluciones criptográficas que añaden autenticación y cifrado a través del denominado “DNP3
 Secure".
+
+
+### OPC UA
+---
+La OPC foundation, en una renovación tecnológica de OPC, publicó hace unos pocos años las
+nuevas especificaciones denominadas OPC UA, que incluso incluyen la redefinición de las siglas
+OPC por Open Platform Communications.
+
+#### OPC DA vs. OPC UA
+
+La redefinición del estándar OPC con las especificaciones UA incorpora al estándar una nueva
+serie de características que podemos ver en Figura 29 comparadas con las especificaciones
+anteriores. Uno de los principales avances en esta tecnología, y ya indicada en el nombre “Unified Arquitecture”, es que el estándar abandona la exclusividad del entorno Windows para abrirse a cualquier sistema. De esta forma los PLCs y DCSs que lo incorporen ya podrán comunicar de una forma nativa con el dispositivo monitorizador o historiador sin necesidad de ningún protocolo adicional.
+
+#### Características
+
+1. Nueva Arquitectura
+La nueva arquitectura, que está basada en SOA (Service Oriented Architecture) y no en usuarios
+de Windows, resuelve los problemas de configuración entre diferentes ordenadores.
+
+2. Nuevas funcionalidades de seguridad
+Las especificaciones OPC UA incluyen medias de seguridad hasta el momento inexistentes:
+* Autentificación a nivel de aplicación: A partir de niveles de usuario y contraseña.
+* Cifrado y autenticación de mensajes: Mediante el intercambio de certificados. 
+
+3. Configuración de los Firewall más sencilla
+Debido a la utilización de los puertos estándar http (TCP/80) y https (TCP/443), la configuración de los firewalls resulta más sencilla con la nueva tecnología.
+
+4. Multiplataforma
+OPC UA rompe la barrera Windows, y ya es posible implementarla en otras plataformas. Esto
+permite que los dispositivos de control puedan incorporar directamente dicho protocolo.
