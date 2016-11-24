@@ -63,3 +63,9 @@ al cliente sin que éste pregunte por él.
 
 * El protocolo incluye **mecanismos de identificación y autentificación** de forma que es
 posible habilitar/denegar el acceso de determinados clientes a la información del dispositivo.
+
+## DNP3 SECURE
+---
+Algunos fabricantes de dispositivos que incluyen comunicación DNP3, incorporan al mismo
+soluciones criptográficas que añaden autenticación y cifrado a través del denominado “DNP3
+Secure".
