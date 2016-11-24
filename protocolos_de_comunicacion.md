@@ -25,3 +25,8 @@ Profinet es el mismo protocolo de Profibus pero en el medio físico de Ethernet.
 ## Modbus
 ---
 El protocolo basado en comunicación continua más extendido dentro de la industria es Modbus.
+
+El protocolo Modbus se formuló a finales de los 70 por los creadores del primer PLC (Modicon) y
+aún persiste, con unas pocas variaciones, en los PLCs de dicha marca (en la actualidad propiedad de Schneider Electric).
+
+Al pasar el protocolo a libre uso, ha sido incorporado en infinidad de dispositivos (generalmente de un rango inferior a un PLC) como variadores de frecuencia, RTUs, IEDs y, como segunda opción, en algunos PLCs a través de módulos de comunicación (software y/o hardware adicional).
