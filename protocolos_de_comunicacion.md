@@ -44,3 +44,8 @@ Los tipos de datos a leer y escribir se reducen a 4 tipos:
 * Holding Registers (registros de programa de 16 bits).
 
 En cuanto al tamaño de los datos (registros de 16 bits, enteros de 32 bits con signo o sin signo, floats) el protocolo no contempla distinciones, sino que la conversión se realiza a nivel de aplicación. Por ejemplo, la lectura de un registro de 32 bits con signo correspondería a la lectura de dos registros de 16 bits, y será el driver de comunicaciones quien compusiese el dato final a través de los datos proporcionados por el dispositivo.
+
+## DNP3
+---
+Protocolo DNP3 por sus especiales características, que lo proyectan como un estándar de futuro, ya que incorpora prestaciones no incluidas en la mayoría de protocolos industriales (time stamp, eventos, autentificación, cifrado, etc.). Desarrollado originariamente por General Electric, hoy en día está promovido por el “DNP Users Group”, por lo que no está ligado a una marca en concreto, como la mayoría de protocolos.
+
