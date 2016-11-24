@@ -49,3 +49,17 @@ En cuanto al tamaño de los datos (registros de 16 bits, enteros de 32 bits con 
 ---
 Protocolo DNP3 por sus especiales características, que lo proyectan como un estándar de futuro, ya que incorpora prestaciones no incluidas en la mayoría de protocolos industriales (time stamp, eventos, autentificación, cifrado, etc.). Desarrollado originariamente por General Electric, hoy en día está promovido por el “DNP Users Group”, por lo que no está ligado a una marca en concreto, como la mayoría de protocolos.
 
+Sus características principales son:
+* **Orientado a eventos:** A diferencia de otros protocolos que la iniciativa de la comunicación parte del cliente de las comunicaciones, en los dispositivos con comunicación DNP3 es posible también definir que eventos deben comunicarse. De esta forma es posible optimizar
+el volumen de comunicaciones.
+
+* **Medidas con Time Stamp:** Todos los valores proporcionados por el driver incorporan el
+tiempo de la medida. El driver es capaz de enviar series de datos para recomponer un
+histórico de datos entre conexiones.
+
+* **Unsolicited Messages:** Desde la programación del PLC es posible configurar qué
+condiciones generarán el envío de un “Unsolicited Messages”, donde un evento es enviado
+al cliente sin que éste pregunte por él.
+
+* El protocolo incluye **mecanismos de identificación y autentificación** de forma que es
+posible habilitar/denegar el acceso de determinados clientes a la información del dispositivo.
