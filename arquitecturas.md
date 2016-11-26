@@ -72,4 +72,8 @@ específicas de un determinado proyecto.
 ![](images/arquitectura_hibrida.png)
 
 
+## Arquitecturas de los sistemas SCADA + Historizadores
+
+
+![](images/Arquitectura_SCADA_Historizador.png)
 
