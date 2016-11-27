@@ -21,5 +21,12 @@ High Integrity Systems.
 * **MISRA:** Guidelines for the use of the C language in critical systems.
 * **CERT:** C Secure Coding Standard, Secure Coding in C and C++ y Oracle Secure Coding
 Standard for Java.
-* **OWASP:*** 
- Secure Coding Practices Quick Reference Guide.
+* **OWASP:*** Secure Coding Practices Quick Reference Guide.
+ 
+### Metodologías completas de programación segura
+
+Por ultimo, cuando se habla de metodologías completas de programación segura, debemos
+destacar las siguientes tres:
+* The Software Security Framework (SSF).
+* OWASP Software Assurance Maturity Model (SAMM).
+* Microsoft Security Development Lifecycle (SDL).
