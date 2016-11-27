@@ -75,5 +75,7 @@ específicas de un determinado proyecto.
 ## Arquitecturas de los sistemas SCADA + Historizadores
 
 
-![](images/Arquitectura_SCADA_Historizador.png)
+jkhad![](images/Arquitectura_SCADA_Historizador.png)
+
+### Arquitecturas posibles para Historizadores
 
