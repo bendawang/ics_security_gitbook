@@ -25,7 +25,7 @@ Standard for Java.
  
 ### Metodologías completas de programación segura
 
-Por ultimo, cuando se habla de metodologías completas de programación segura, debemos
+Por último, cuando se habla de metodologías completas de programación segura, debemos
 destacar las siguientes tres:
 * The Software Security Framework (SSF).
 * OWASP Software Assurance Maturity Model (SAMM).
