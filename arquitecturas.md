@@ -98,3 +98,7 @@ acceder desde su PC, ubicado en la red IT, directamente a este tipo de servidore
 En este caso, una buena práctica es ubicar un historizador replicado en una DMZ o zona
 desmilitarizada, de manera que la red de proceso no se vea comprometida ante posibles
 amenazas. Un aspecto clave es que la mayoría de historizadores ya proporcionan la posibilidad de desplegar entornos replicados que faciliten esta dualidad entre aplicativos.
+
+### Futuro de los Historizadores
+
+Historizadores as a Service.
