@@ -79,10 +79,20 @@ arquitecturas:
 
 ![](images/arquitecturas_posibles_historizadores.png)
 **Ejemplo:** 
-* El historizador se ha desplegado complementando al SCADA.
-* Utilizando la arquitectura cliente-servidor con clientes pesados. En este caso las
+ * El historizador se ha desplegado complementando al SCADA.
+ * Utilizando la arquitectura cliente-servidor con clientes pesados. En este caso las
 herramientas de explotación de la información se han instalado en los clientes SCADA.
-* La captura de los datos se realiza a través del SCADA.
-* Se trata de un sistema redundante ya que existe un Historian replicado.
+ * La captura de los datos se realiza a través del SCADA.
+ * Se trata de un sistema redundante ya que existe un Historian replicado.
 ![](images/Arquitectura_SCADA_Historizador.png)
+En relación con la redundancia del historizador, se ha de mencionar que:
+ 1. Como ya se ha comentado anteriormente, normalmente los datos ubicados en el servidor de
+historización son accedidos por los propios operadores de planta, desde los PCs en los que
+están instalados los SCADA.
 
+ 2. Sin embargo, también son accedidos por personas que no operan directamente en el
+entorno industrial. Por ejemplo, un director de producción o un director de calidad, podrían
+acceder desde su PC, ubicado en la red IT, directamente a este tipo de servidores.
+En este caso, una buena práctica es ubicar un historizador replicado en una DMZ o zona
+desmilitarizada, de manera que la red de proceso no se vea comprometida ante posibles
+amenazas. Un aspecto clave es que la mayoría de historizadores ya proporcionan la posibilidad de desplegar entornos replicados que faciliten esta dualidad entre aplicativos.
