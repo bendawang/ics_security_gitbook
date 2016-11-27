@@ -7,6 +7,6 @@
 * [Interfaces de comunicación](interfaces_de_comunicacion.md)
 * [Seguridad](seguridad.md)
    * [Aproximación a la protección de los sistemas de control y automatización](aproximacion_a_la_proteccion_industrial.md)
-   * Metodología de Programación Segura: Herramientas para minimizar el riesgo asociado
+   * [Metodología de Programación Segura: Herramientas para minimizar el riesgo asociado](metodologia_de_programacion_segura_herramientas_pa.md)
 * [Arquitecturas](arquitecturas.md)
 
