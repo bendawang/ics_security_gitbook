@@ -101,4 +101,12 @@ amenazas. Un aspecto clave es que la mayoría de historizadores ya proporcionan 
 
 ### Futuro de los Historizadores
 
-Historizadores as a Service.
+El futuro pasa por ir hacia un modelo de "Historizadores as a Service". En este escenario, el cliente paga por las licencias SCADA, un historian y herramientas de explotación tradicionales, y de forma complementaria paga por el uso de un “historian as a service” y de “analytics as a service”. Resumiendo, existen históricos locales y una réplica en la nube que se ofrece como servicio.
+
+![](images/historizadores_as_a_service.png)
+
+
+
+
+
+
