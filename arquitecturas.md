@@ -79,3 +79,4 @@ específicas de un determinado proyecto.
 
 ### Arquitecturas posibles para Historizadores
 
+![](images/arquitecturas_posibles_historizadores.png)
