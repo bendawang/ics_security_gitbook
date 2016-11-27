@@ -93,6 +93,8 @@ están instalados los SCADA.
  2. Sin embargo, también son accedidos por personas que no operan directamente en el
 entorno industrial. Por ejemplo, un director de producción o un director de calidad, podrían
 acceder desde su PC, ubicado en la red IT, directamente a este tipo de servidores.
+
+
 En este caso, una buena práctica es ubicar un historizador replicado en una DMZ o zona
 desmilitarizada, de manera que la red de proceso no se vea comprometida ante posibles
 amenazas. Un aspecto clave es que la mayoría de historizadores ya proporcionan la posibilidad de desplegar entornos replicados que faciliten esta dualidad entre aplicativos.
