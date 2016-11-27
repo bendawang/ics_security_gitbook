@@ -74,9 +74,15 @@ específicas de un determinado proyecto.
 
 ## Arquitecturas de los sistemas SCADA + Historizadores
 
-
-![](images/Arquitectura_SCADA_Historizador.png)
-
-### Arquitecturas posibles para Historizadores
+Un Historizador se puede desplegar bajo múltiples tipos de
+arquitecturas: 
 
 ![](images/arquitecturas_posibles_historizadores.png)
+**Ejemplo:** 
+* El historizador se ha desplegado complementando al SCADA.
+* Utilizando la arquitectura cliente-servidor con clientes pesados. En este caso las
+herramientas de explotación de la información se han instalado en los clientes SCADA.
+* La captura de los datos se realiza a través del SCADA.
+* Se trata de un sistema redundante ya que existe un Historian replicado.
+![](images/Arquitectura_SCADA_Historizador.png)
+
