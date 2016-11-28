@@ -1,2 +1,3 @@
 # Modbus
 
+Las comunicaciones de tipo Modbus no presentan autenticación de extremos ni de mensajes, por lo que es posible realizar una suplantación de identidad, tanto del maestro como del esclavo, y engañar a la otra parte de la comunicación. Así mismo, al no utilizar mecanismos de cifrado que aseguren la información en tránsito, es posible realizar un ataque de tipo Man-In-TheMiddle sobre la comunicación, alterando los datos trasmitidos entre el esclavo y el maestro.
